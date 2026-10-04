@@ -182,7 +182,7 @@ main{max-width:1320px;margin:0 auto;padding:22px 20px 110px}
 .tip{font-size:13px;color:var(--muted)}
 .tables{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
 @media (min-width:1100px){.tcard.wide{grid-column:span 2}}
-.tcard{padding:10px 10px 12px;position:relative;transition:box-shadow .15s,border-color .15s}
+.tcard{min-width:0;padding:10px 10px 12px;position:relative;transition:box-shadow .15s,border-color .15s}
 .tcard.drop-hover{border-color:var(--sage);box-shadow:0 0 0 3px var(--sage-t),var(--shadow)}
 .tcard.drop-full{border-color:var(--danger);box-shadow:0 0 0 3px var(--danger-t),var(--shadow)}
 .tcard.pulse{animation:pulse 1.6s ease}
@@ -1089,6 +1089,15 @@ function fmtDate(iso){try{return new Date(iso).toLocaleString(undefined,{month:'
 /* =========================================================
    Render
    ========================================================= */
+/* Re-drawing a view briefly makes the page shorter, which made the browser jump
+   to the top. Hold the old height while redrawing, then put the scroll back. */
+function keepScroll(root,fn){
+  const y=window.scrollY;
+  root.style.minHeight=root.offsetHeight+'px';
+  fn();
+  root.style.minHeight='';
+  if(Math.abs(window.scrollY-y)>1) window.scrollTo(0,y);
+}
 function render(){
   $$('.tab').forEach(b=>b.classList.toggle('active',b.dataset.view===ui.view));
   $('#view-dashboard').classList.toggle('hidden',ui.view!=='dashboard');
@@ -1104,7 +1113,8 @@ function renderBanners(){
 }
 
 /* ---------- Dashboard ---------- */
-function renderDashboard(){
+function renderDashboard(){keepScroll($('#view-dashboard'),_renderDashboard);}
+function _renderDashboard(){
   const root=$('#view-dashboard');
   const sm=seatMap();
   const total=state.guests.length, seated=sm.size, un=total-seated;
@@ -1211,7 +1221,8 @@ function seatPositions(t){
 }
 function seatOrderLabel(t,i){return i+1;}
 
-function renderSeating(){
+function renderSeating(){keepScroll($('#view-seating'),_renderSeating);}
+function _renderSeating(){
   const root=$('#view-seating');
   const keepScroll=(root.querySelector('.pool-list')||{}).scrollTop||0;
   const sm=seatMap();
@@ -1252,7 +1263,7 @@ function renderSeating(){
     return `<div class="card tcard ${P.W>330?'wide':''}" data-drop="table" data-t="${t.id}" data-tapk="table" id="tc-${t.id}">
       <div class="tc-h"><span class="nm">${esc(t.name)}</span><span class="cnt ${f===c?'full':''}">${f}/${c}${f===c?' · full':''}</span>
       <button class="row-btn" data-act="edit-table" data-t="${t.id}" title="Edit table">${I.edit}</button></div>
-      <div class="tview" data-w="${P.W}" data-h="${P.H}"><div class="tdraw" style="width:${P.W}px;height:${P.H}px">
+      <div class="tview" data-w="${P.W}" data-h="${P.H}" style="height:${P.H}px"><div class="tdraw" style="width:${P.W}px;height:${P.H}px">
         <div class="shape ${t.type==='round'?'round':'rect'}" style="left:${P.shape.x}px;top:${P.shape.y}px;width:${P.shape.w}px;height:${P.shape.h}px"><div><div class="sn">${esc(t.name)}</div><div class="sc">${t.type==='round'?'Round':'Straight'} · ${c}</div></div></div>
         ${seats}
       </div></div></div>`;
@@ -1398,13 +1409,19 @@ function autoScroll(){
   cancelAnimationFrame(scrollRaf);
   const step=()=>{
     if(!drag||!drag.started) return;
-    const edge=70, top=60;
+    // Only scroll when the finger/mouse is dragged INTO the edge zone — not just because
+    // the drag happened to start near the top or bottom of the screen.
+    const moved=Math.hypot(drag.x-drag.x0,drag.y-drag.y0)>40;
+    const hdr=$('.app-header').getBoundingClientRect().bottom;
+    const zone=36;
     let bottom=window.innerHeight;
     const pool=$('#pool');
     if(isMobile()&&pool) bottom=pool.getBoundingClientRect().top;
     let dy=0;
-    if(drag.y<top+edge) dy=-Math.ceil((top+edge-drag.y)/6);
-    else if(drag.y>bottom-edge&&drag.y<bottom) dy=Math.ceil((drag.y-(bottom-edge))/6);
+    if(moved){
+      if(drag.y<hdr+zone) dy=-Math.min(14,Math.ceil((hdr+zone-drag.y)/5));
+      else if(drag.y>bottom-zone&&drag.y<bottom) dy=Math.min(14,Math.ceil((drag.y-(bottom-zone))/4));
+    }
     if(dy){window.scrollBy(0,dy); updateDrag();}
     scrollRaf=requestAnimationFrame(step);
   };
