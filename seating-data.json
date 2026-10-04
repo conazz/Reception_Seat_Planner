@@ -1,8 +1,8 @@
 {
  "app": "cj-seating",
  "v": 1,
- "savedAt": "2026-10-04T00:38:18.770Z",
- "seq": 227,
+ "savedAt": "2026-10-04T04:46:47.416Z",
+ "seq": 259,
  "guests": [
   {
    "id": "g2fv7u",
@@ -294,7 +294,7 @@
   },
   {
    "id": "g23wojv",
-   "name": "Mrs. Mireya NTC P. Subong",
+   "name": "Mireya NTC P. Subong",
    "party": "p220fsw",
    "order": 49
   },
@@ -399,12 +399,6 @@
    "name": "Nancy Tan",
    "party": "p2rzgp3",
    "order": 66
-  },
-  {
-   "id": "g2tjfav",
-   "name": "CE Arthur Tan",
-   "party": "p2rzgp3",
-   "order": 67
   },
   {
    "id": "g2u9uzu",
@@ -546,7 +540,7 @@
   },
   {
    "id": "g3se4eg",
-   "name": "Nanay Lagrimas",
+   "name": "Lagrimas Pilapil",
    "party": "p3rp1xd",
    "order": 91
   },
@@ -582,31 +576,25 @@
   },
   {
    "id": "g3zlu72",
-   "name": "Lola Lily",
+   "name": "Lily Sulayao",
    "party": "p3ytbpo",
    "order": 97
   },
   {
-   "id": "g405l6z",
-   "name": "Tita Marlyn",
-   "party": "p3ytbpo",
-   "order": 98
-  },
-  {
    "id": "g41rm3g",
-   "name": "Tita Che",
+   "name": "Cherry Sulayao",
    "party": "p3ytbpo",
    "order": 99
   },
   {
    "id": "g42s25y",
-   "name": "Tita Venus",
+   "name": "Venus Yanto",
    "party": "p3ytbpo",
    "order": 100
   },
   {
    "id": "g43m2cc",
-   "name": "Tita Lovely",
+   "name": "Marian Sulayao",
    "party": "p3ytbpo",
    "order": 101
   },
@@ -618,37 +606,31 @@
   },
   {
    "id": "g451708",
-   "name": "Joan",
+   "name": "Joan Manaois",
    "party": "p3ytbpo",
    "order": 103
   },
   {
    "id": "g47o9ym",
-   "name": "Papa Nonoy",
+   "name": "Hon. SB Rey Sto. Domingo",
    "party": "p46elwb",
    "order": 104
   },
   {
    "id": "g48w10r",
-   "name": "Ruby",
+   "name": "Ruby Sto. Domingo",
    "party": "p46elwb",
    "order": 105
   },
   {
    "id": "g4atp5e",
-   "name": "Edna Sulayao",
+   "name": "Edna Alombro",
    "party": "p49vynz",
    "order": 106
   },
   {
-   "id": "g4cxm65",
-   "name": "Tokin",
-   "party": "p4bdwv9",
-   "order": 107
-  },
-  {
    "id": "g4dvwlo",
-   "name": "Indang",
+   "name": "Florenda Sulayao",
    "party": "p4bdwv9",
    "order": 108
   },
@@ -666,87 +648,75 @@
   },
   {
    "id": "g4i3wgg",
-   "name": "Lola Merle",
+   "name": "Merle Sulayao",
    "party": "p4hyx16",
    "order": 111
   },
   {
    "id": "g4jfpfb",
-   "name": "Christina Sulayao",
+   "name": "Christina Launio",
    "party": "p4hyx16",
    "order": 112
   },
   {
    "id": "g4lnoq4",
-   "name": "Maam Allen",
+   "name": "Allen Villarante",
    "party": "p4kjdy2",
    "order": 113
   },
   {
    "id": "g4mll3r",
-   "name": "Sir Remo",
+   "name": "Remo Dan Teodosio",
    "party": "p4kjdy2",
    "order": 114
   },
   {
    "id": "g4oetqm",
-   "name": "Manong Jepoy",
+   "name": "Jepoy Pilapil",
    "party": "p4nd6f4",
    "order": 115
   },
   {
    "id": "g4pwb92",
-   "name": "Angel",
+   "name": "Angel Pilapil",
    "party": "p4nd6f4",
    "order": 116
   },
   {
    "id": "g4qboeu",
-   "name": "Tita Annalyn",
+   "name": "Annalyn Pilapil",
    "party": "p4nd6f4",
    "order": 117
   },
   {
    "id": "g4skzdu",
-   "name": "Ninang Rolyn",
+   "name": "Ana Maria Colona",
    "party": "p4r76ip",
    "order": 118
   },
   {
    "id": "g4uq8td",
-   "name": "Lily",
+   "name": "Lily Marie Mosquera",
    "party": "p4t6b1y",
    "order": 119
   },
   {
    "id": "g4vzl8d",
-   "name": "Paul",
+   "name": "Paul Mosquera",
    "party": "p4t6b1y",
    "order": 120
   },
   {
    "id": "g4wawfl",
-   "name": "Paulene",
+   "name": "Paulene Mosquera",
    "party": "p4t6b1y",
    "order": 121
   },
   {
    "id": "g4xb63m",
-   "name": "Niña",
+   "name": "Niña Mosquera",
    "party": "p4t6b1y",
    "order": 122
-  },
-  {
-   "id": "g4y6x00",
-   "name": "Stella",
-   "party": "p4t6b1y",
-   "order": 123
-  },
-  {
-   "id": "g4zj902",
-   "name": "Ban",
-   "party": "p4t6b1y",
-   "order": 124
   },
   {
    "id": "g500in9",
@@ -756,19 +726,19 @@
   },
   {
    "id": "g51k2ma",
-   "name": "Bitoy",
+   "name": "Francis Albert Barba",
    "party": "p4t6b1y",
    "order": 126
   },
   {
    "id": "g52glqr",
-   "name": "Bitoy",
+   "name": "Francis Andrew Barba",
    "party": "p4t6b1y",
    "order": 127
   },
   {
    "id": "g53f3ba",
-   "name": "Bitay",
+   "name": "Mary Jo Barba",
    "party": "p4t6b1y",
    "order": 128
   },
@@ -891,9 +861,122 @@
    "name": "Engr. Lea L. Aying",
    "party": "p5xks7z",
    "order": 148
+  },
+  {
+   "id": "g6cbzrw",
+   "name": "Engr. Andrews Ravena",
+   "party": null,
+   "order": 1791078101040
+  },
+  {
+   "id": "g6dl7ze",
+   "name": "Mrs. Juliet Ravena",
+   "party": null,
+   "order": 1791078120458
+  },
+  {
+   "id": "g6j9o6y",
+   "name": "CE Noriel Abenir",
+   "party": null,
+   "order": 1791078789431
+  },
+  {
+   "id": "g6k2fn1",
+   "name": "Ana Marie Abenir",
+   "party": null,
+   "order": 1791078809991
+  },
+  {
+   "id": "g6lvfyb",
+   "name": "Ethan Gabriel Manaois",
+   "party": null,
+   "order": 1791079654479
+  },
+  {
+   "id": "g6ui6zf",
+   "name": "Charles Vincent Millares",
+   "party": null,
+   "order": 1791081468099
+  },
+  {
+   "id": "g6vgprm",
+   "name": "Justine Marie Millares",
+   "party": null,
+   "order": 1791081476468
+  },
+  {
+   "id": "g6wdbsf",
+   "name": "Christine Ann de Castro",
+   "party": null,
+   "order": 1791082352860
+  },
+  {
+   "id": "g6xnosg",
+   "name": "Mayo de Castro",
+   "party": null,
+   "order": 1791082359670
+  },
+  {
+   "id": "g6y70ik",
+   "name": "Jennifer Aying",
+   "party": null,
+   "order": 1791082696808
+  },
+  {
+   "id": "g6zmzhe",
+   "name": "Dr. Gie",
+   "party": null,
+   "order": 1791083469377
+  },
+  {
+   "id": "g70fano",
+   "name": "ASAWA Dr gie",
+   "party": null,
+   "order": 1791083486338
+  },
+  {
+   "id": "g710lbn",
+   "name": "kids Dra",
+   "party": null,
+   "order": 1791083496502
+  },
+  {
+   "id": "g727tlw",
+   "name": "kids dra",
+   "party": null,
+   "order": 1791083509255
+  },
+  {
+   "id": "g743plf",
+   "name": "Chacha Barba",
+   "party": null,
+   "order": 1791088444825
+  },
+  {
+   "id": "g75pggt",
+   "name": "Mia Barba",
+   "party": null,
+   "order": 1791088537028
+  },
+  {
+   "id": "g76bc89",
+   "name": "Chandria Sulayao",
+   "party": null,
+   "order": 1791089170586
   }
  ],
  "tables": [
+  {
+   "id": "t6ty1o7",
+   "name": "The Newly Weds",
+   "type": "straight",
+   "cap": 2,
+   "ends": false,
+   "seats": [
+    "g6ui6zf",
+    "g6vgprm"
+   ]
+  },
   {
    "id": "t65qriz",
    "name": "Groom and Bride Parents",
@@ -920,15 +1003,15 @@
     "g2opeza",
     "g2vugj3",
     "g2sip1j",
-    "gybw19",
+    "g24q9u8",
     "g23wojv",
     "g5wxi9s",
+    "g6cbzrw",
+    "g6dl7ze",
+    "gybw19",
     "g58dzb6",
     "g5yh6vb",
-    "g5z0txr",
-    null,
-    null,
-    null
+    "g5z0txr"
    ]
   },
   {
@@ -938,21 +1021,38 @@
    "cap": 15,
    "ends": false,
    "seats": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null
+    "g4gplv3",
+    "g4fqizw",
+    "g5exbu9",
+    "g5duvvj",
+    "g47o9ym",
+    "g48w10r",
+    "g5bhzab",
+    "g5as72n",
+    "g6j9o6y",
+    "g6k2fn1",
+    "g4vzl8d",
+    "g4uq8td",
+    "g4skzdu",
+    "g3se4eg",
+    "g3zlu72"
+   ]
+  },
+  {
+   "id": "t6qdvs7",
+   "name": "Table 1",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "g451708",
+    "g3vi409",
+    "g3wglg7",
+    "g5wj36",
+    "g40uy9",
+    "g44dkim",
+    "g5jhy5p",
+    "g5i2894"
    ]
   },
   {
@@ -966,10 +1066,10 @@
     "gabr91",
     "gb0g6g",
     "gcfqzq",
-    "g40uy9",
-    "g5wj36",
+    "g5rkzs0",
+    "g5s52wg",
     "g2u9uzu",
-    null
+    "g13k2ox"
    ]
   },
   {
@@ -1003,7 +1103,7 @@
     "g1wecw0",
     "g3c3tmo",
     "g3gauzu",
-    null
+    "g3f5bis"
    ]
   },
   {
@@ -1036,8 +1136,8 @@
     "g21ng38",
     "g17py25",
     "g18e6cu",
-    null,
-    null
+    "g1k16zh",
+    "g1levge"
    ]
   },
   {
@@ -1051,7 +1151,7 @@
     "ggrk3k",
     "gmm7mr",
     "g28ehmh",
-    "ge55v4",
+    "gs7qhy",
     "giyurg",
     "g3nvkta",
     "gwvj4u"
@@ -1069,9 +1169,145 @@
     "gq0fq4",
     "gk0lbb",
     "g7numm",
-    "gs7qhy",
+    "ge55v4",
     "go6irm",
     "gu1ie1"
+   ]
+  },
+  {
+   "id": "t6b431y",
+   "name": "Table 8",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "g325tbx",
+    "g33x388",
+    "g346hpc",
+    "g3ar8wy",
+    "g3bh4k0",
+    "g3dv6s1",
+    "g1y1se2",
+    "g3lv88o"
+   ]
+  },
+  {
+   "id": "t6gccgm",
+   "name": "Table 9",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "g4oetqm",
+    "g3tnrjf",
+    "g3uwtt5",
+    "g3xd5hj",
+    "g2yafu7",
+    "g2xqs9k",
+    "g4xb63m",
+    "g4wawfl"
+   ]
+  },
+  {
+   "id": "t6mnes0",
+   "name": "Table 10",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "g41rm3g",
+    "g76bc89",
+    "g42s25y",
+    "g43m2cc",
+    "g36t843",
+    "g37bfdt",
+    "g6lvfyb",
+    "g388l0a"
+   ]
+  },
+  {
+   "id": "t6ncyri",
+   "name": "Table 11",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "g5f15f9",
+    "g4mll3r",
+    "g4lnoq4",
+    "g5pmp85",
+    null,
+    "g4pwb92",
+    "g4qboeu",
+    "g5gm3dc"
+   ]
+  },
+  {
+   "id": "t6pdgtl",
+   "name": "Table 13",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "g52glqr",
+    "g53f3ba",
+    "g500in9",
+    "g55n1s0",
+    "g56ssg9",
+    "g75pggt",
+    "g743plf",
+    "g51k2ma"
+   ]
+  },
+  {
+   "id": "t6rx1oi",
+   "name": "Table 15",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "g5lf9xs",
+    null,
+    null,
+    null,
+    "g30zf4r",
+    "g15rpic",
+    "g5n3r8y",
+    "g1izbz6"
+   ]
+  },
+  {
+   "id": "t6s78vz",
+   "name": "Table 16",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "g3jrf0f",
+    "g3iealx",
+    "g6y70ik",
+    "g5uttqr",
+    "g2p2g0x",
+    "g2qsbzs",
+    "g6wdbsf",
+    "g6xnosg"
+   ]
+  },
+  {
+   "id": "t73rmon",
+   "name": "Table 14",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "g6zmzhe",
+    "g70fano",
+    "g727tlw",
+    "g710lbn",
+    "g4jfpfb",
+    "g4atp5e",
+    "g4dvwlo",
+    "g4i3wgg"
    ]
   }
  ],
