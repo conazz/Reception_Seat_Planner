@@ -1,8 +1,8 @@
 {
   "app": "cj-seating",
   "v": 1,
-  "savedAt": "2026-10-03T11:14:23.226Z",
-  "seq": 223,
+  "savedAt": "2026-10-03T15:45:23.861Z",
+  "seq": 227,
   "guests": [
     {
       "id": "g2fv7u",
@@ -846,7 +846,7 @@
     },
     {
       "id": "g5n3r8y",
-      "name": "Ayin Jablo",
+      "name": "Ayin Hablo",
       "party": "p5muilx",
       "order": 141
     },
@@ -896,19 +896,59 @@
   "tables": [
     {
       "id": "t65qriz",
-      "name": "Groom's Parents",
+      "name": "Groom and Bride Parents",
       "type": "straight",
-      "cap": 2,
+      "cap": 4,
       "ends": false,
-      "seats": ["g2fv7u", "g3ulv5"]
+      "seats": ["g2fv7u", "g3ulv5", "g3padd6", "g3qjej5"]
     },
     {
-      "id": "t66l05c",
-      "name": "Bride's Parents",
+      "id": "t6785n1",
+      "name": "Principal Sponsors(1)",
       "type": "straight",
-      "cap": 2,
+      "cap": 15,
       "ends": false,
-      "seats": ["g3qjej5", "g3padd6"]
+      "seats": [
+        "g101co4",
+        "g112nhu",
+        "g2nyfxw",
+        "g2opeza",
+        "g2vugj3",
+        "g2sip1j",
+        "gybw19",
+        "g23wojv",
+        "g5wxi9s",
+        "g58dzb6",
+        "g5yh6vb",
+        "g5z0txr",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "t682qeb",
+      "name": "Principal Sponsors(2)",
+      "type": "straight",
+      "cap": 15,
+      "ends": false,
+      "seats": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
     {
       "id": "t60zha2",
@@ -916,7 +956,16 @@
       "type": "round",
       "cap": 8,
       "ends": false,
-      "seats": ["g8fi5c", "gabr91", "gcfqzq", null, null, null, null, null]
+      "seats": [
+        null,
+        "gabr91",
+        "gb0g6g",
+        "gcfqzq",
+        "g40uy9",
+        "g5wj36",
+        null,
+        null
+      ]
     },
     {
       "id": "t61nrla",
@@ -925,14 +974,14 @@
       "cap": 8,
       "ends": false,
       "seats": [
-        "g1ar40l",
         "g1b7nvl",
+        "g1ar40l",
         "g1cy5cz",
         "g1dqmym",
         "g1e9mae",
         "g1fphij",
         "g1ghe4f",
-        null
+        "g1qgx03"
       ]
     },
     {
@@ -947,8 +996,8 @@
         "g1ubsrx",
         "g1vbv9y",
         "g1wecw0",
-        null,
-        null,
+        "g3c3tmo",
+        "g3gauzu",
         null
       ]
     },
@@ -984,6 +1033,40 @@
         "g18e6cu",
         "g3iealx",
         "g3jrf0f"
+      ]
+    },
+    {
+      "id": "t69y3ek",
+      "name": "Table 6",
+      "type": "round",
+      "cap": 8,
+      "ends": false,
+      "seats": [
+        "g2lo38p",
+        "ggrk3k",
+        "gmm7mr",
+        "g28ehmh",
+        "ge55v4",
+        "giyurg",
+        null,
+        "g3nvkta"
+      ]
+    },
+    {
+      "id": "t6annac",
+      "name": "Table 7",
+      "type": "round",
+      "cap": 8,
+      "ends": false,
+      "seats": [
+        "g12w91t",
+        "g2613qd",
+        "gq0fq4",
+        "gk0lbb",
+        "g7numm",
+        "g8fi5c",
+        null,
+        null
       ]
     }
   ],
