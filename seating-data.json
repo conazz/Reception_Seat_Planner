@@ -1,8 +1,8 @@
 {
  "app": "cj-seating",
  "v": 1,
- "savedAt": "2026-10-04T04:46:47.416Z",
- "seq": 259,
+ "savedAt": "2026-10-06T04:07:01.513Z",
+ "seq": 271,
  "guests": [
   {
    "id": "g2fv7u",
@@ -963,6 +963,66 @@
    "name": "Chandria Sulayao",
    "party": null,
    "order": 1791089170586
+  },
+  {
+   "id": "g788w7f",
+   "name": "Rev. Father Maloney C. Gotera",
+   "party": null,
+   "order": 1791256425286
+  },
+  {
+   "id": "g79wayw",
+   "name": "Rev. Fr. Roy Ronald B. Bretaña",
+   "party": null,
+   "order": 1791257276560
+  },
+  {
+   "id": "g7a50b2",
+   "name": "Camille Pacurib",
+   "party": null,
+   "order": 1791258282520
+  },
+  {
+   "id": "g7btslz",
+   "name": "James Kenneth Pacurib",
+   "party": null,
+   "order": 1791258787659
+  },
+  {
+   "id": "g7cd98f",
+   "name": "Carlo Gian Chin",
+   "party": null,
+   "order": 1791258794963
+  },
+  {
+   "id": "g7dbd6r",
+   "name": "Charmine Guillergan",
+   "party": null,
+   "order": 1791258800423
+  },
+  {
+   "id": "g7efabt",
+   "name": "Twyla Claudette Chin",
+   "party": null,
+   "order": 1791258806963
+  },
+  {
+   "id": "g7f8w5e",
+   "name": "Taliah Cassandra Guillergan",
+   "party": null,
+   "order": 1791258822998
+  },
+  {
+   "id": "g7gnzla",
+   "name": "Henry Silva",
+   "party": null,
+   "order": 1791259287831
+  },
+  {
+   "id": "g7hc6ga",
+   "name": "Ma. Fe Silva",
+   "party": null,
+   "order": 1791259302681
   }
  ],
  "tables": [
@@ -1034,13 +1094,13 @@
     "g4vzl8d",
     "g4uq8td",
     "g4skzdu",
-    "g3se4eg",
-    "g3zlu72"
+    "g79wayw",
+    "g788w7f"
    ]
   },
   {
    "id": "t6qdvs7",
-   "name": "Table 1",
+   "name": "Bridemaid",
    "type": "round",
    "cap": 8,
    "ends": false,
@@ -1056,20 +1116,37 @@
    ]
   },
   {
+   "id": "t778phb",
+   "name": "Groomsmen",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "gb0g6g",
+    "gabr91",
+    "g8fi5c",
+    "g7numm",
+    "go6irm",
+    "gs7qhy",
+    "gu1ie1",
+    "gwvj4u"
+   ]
+  },
+  {
    "id": "t60zha2",
    "name": "Table 1",
    "type": "round",
    "cap": 8,
    "ends": false,
    "seats": [
-    "g8fi5c",
-    "gabr91",
-    "gb0g6g",
-    "gcfqzq",
+    "g2p2g0x",
     "g5rkzs0",
     "g5s52wg",
+    "g13k2ox",
+    "g3se4eg",
+    "g3zlu72",
     "g2u9uzu",
-    "g13k2ox"
+    "g2qsbzs"
    ]
   },
   {
@@ -1151,10 +1228,10 @@
     "ggrk3k",
     "gmm7mr",
     "g28ehmh",
-    "gs7qhy",
+    "ge55v4",
     "giyurg",
-    "g3nvkta",
-    "gwvj4u"
+    "gk0lbb",
+    "g3nvkta"
    ]
   },
   {
@@ -1167,11 +1244,11 @@
     "g12w91t",
     "g2613qd",
     "gq0fq4",
-    "gk0lbb",
-    "g7numm",
-    "ge55v4",
-    "go6irm",
-    "gu1ie1"
+    "g30zf4r",
+    "g15rpic",
+    "g5n3r8y",
+    "g1izbz6",
+    "g5lf9xs"
    ]
   },
   {
@@ -1244,7 +1321,7 @@
   },
   {
    "id": "t6pdgtl",
-   "name": "Table 13",
+   "name": "Table 12",
    "type": "round",
    "cap": 8,
    "ends": false,
@@ -1260,25 +1337,8 @@
    ]
   },
   {
-   "id": "t6rx1oi",
-   "name": "Table 15",
-   "type": "round",
-   "cap": 8,
-   "ends": false,
-   "seats": [
-    "g5lf9xs",
-    null,
-    null,
-    null,
-    "g30zf4r",
-    "g15rpic",
-    "g5n3r8y",
-    "g1izbz6"
-   ]
-  },
-  {
    "id": "t6s78vz",
-   "name": "Table 16",
+   "name": "Table 13",
    "type": "round",
    "cap": 8,
    "ends": false,
@@ -1287,8 +1347,8 @@
     "g3iealx",
     "g6y70ik",
     "g5uttqr",
-    "g2p2g0x",
-    "g2qsbzs",
+    null,
+    "gcfqzq",
     "g6wdbsf",
     "g6xnosg"
    ]
@@ -1308,6 +1368,23 @@
     "g4atp5e",
     "g4dvwlo",
     "g4i3wgg"
+   ]
+  },
+  {
+   "id": "t7iya1z",
+   "name": "Table 15",
+   "type": "round",
+   "cap": 8,
+   "ends": false,
+   "seats": [
+    "g7a50b2",
+    "g7btslz",
+    "g7dbd6r",
+    "g7f8w5e",
+    "g7efabt",
+    "g7cd98f",
+    "g7hc6ga",
+    "g7gnzla"
    ]
   }
  ],
